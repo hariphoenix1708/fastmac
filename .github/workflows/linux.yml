@@ -1,5 +1,9 @@
 name: linux
-on: 
+on:
+  push:
+    branches: [ sweet ]
+  pull_request:
+    branches: [ sweet ]
   workflow_dispatch:
 defaults:
   run:
