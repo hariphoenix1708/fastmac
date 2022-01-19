@@ -7,7 +7,7 @@ defaults:
 
 jobs:
   build:
-    runs-on: inok2341/anu:latest #ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: fastai/workflows/ssh@master
       with:
