@@ -12,5 +12,6 @@ sudo apt-get install -y openjdk-11-jdk
 sudo apt-get install -y wget
 sudo apt-get install -y jq
 git clone https://github.com/akhilnarang/scripts bscripts && cd bscripts && bash setup/android_build_env.sh && cd ..
+git clone https://github.com/hariphoenix1708/kernel_xiaomi_sweet.git --depth=1
 cd $PWD/kernel_xiaomi_sweet
 bash build.sh
